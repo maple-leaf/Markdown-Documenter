@@ -95,6 +95,7 @@ markdownApp.controller('appCtrl',function($scope, $upload, $http){
         }).success(function(data,status,headers,config){
             $scope.markdown = data;
             $scope.showUpload = !$scope.showUpload;
+            $scope.filename = $files[0].name.substr(0, $files[0].name.indexOf('\.'));
         }).error(function(data,status){
             alert("Can't connect to PHP Server");
             $scope.showUpload = false;
