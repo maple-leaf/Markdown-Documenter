@@ -1,0 +1,5 @@
+output/*.html
+output/*.md
+images/*.jpg
+images/*.png
+images/*.gif
