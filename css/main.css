@@ -1,0 +1,52 @@
+.editArea textarea {
+    width: 100%;
+    position: relative;
+}
+.previewArea {
+    border: 1px solid goldenrod;
+    padding: 10px;
+}
+
+.syntax-help {
+    margin-top: 6px;
+}
+
+.syntax-cheatsheet {
+    position: absolute;
+    width: 87.5%;
+    background-size: 5px 5px;
+    background-image: linear-gradient(-45deg,#9C8612 20%,#DABD27 20% ,#E6B051 50%,#D5AC07 80%, #D4A81E 80%);
+}
+
+.syntax-doc {
+    background-size: 5px 10px;
+    background-image: linear-gradient(-45deg,#272829 20%,#5B6063  20% ,#272829 50%,#5B6063 80%, #272829 80%);
+}
+
+.syntax-doc h1 {
+    color: goldenrod;
+}
+
+.syntax-content {
+    color: #fff;
+}
+
+#index ul {
+    margin-left: 0;
+    list-style-type: none;
+}
+
+#index.nav-list>li>a {
+    text-shadow: 0 1px 0 rgba(158, 106, 29, 0.5);
+}
+
+#index a {
+    padding: 3px 15px;
+}
+#index a:hover {
+    box-shadow: 0px 0px 15px #000 inset;
+    border-radius: 5px;
+    background: none;
+    text-decoration: none;
+    color: #fff;
+}
