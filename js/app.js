@@ -95,6 +95,9 @@ markdownApp.controller('appCtrl',function($scope, $upload, $http){
         }).success(function(data,status,headers,config){
             $scope.markdown = data;
             $scope.showUpload = !$scope.showUpload;
+        }).error(function(data,status){
+            alert("Can't connect to PHP Server");
+            $scope.showUpload = false;
         });
     }
 });
