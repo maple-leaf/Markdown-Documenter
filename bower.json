@@ -1,0 +1,25 @@
+{
+  "name": "Markdown-Documenter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/maple-leaf/Markdown-Documenter",
+  "authors": [
+    "maple-leaf <tjfdfs@gmail.com>"
+  ],
+  "description": "Markdown document writer and interpreter",
+  "main": "index.html",
+  "keywords": [
+    "markdown"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-sanitize": "~1.2.2",
+    "ng-file-upload": "~1.1.8"
+  }
+}
